@@ -2,11 +2,11 @@
 module.exports = {
 	options: {
 		textdomain: '<%= pkg.plugin.textdomain %>',
-		updateDomains: ['all']
+		updateDomains: [ 'all' ]
 	},
 	php: {
 		files: {
-			src: ['<%= files.php %>']
+			src: [ '<%= files.php %>' ]
 		}
 	}
 };

@@ -2,9 +2,7 @@
 module.exports = {
 	plugin: {
 		options: {
-			sourceMap: true,
-			sourceMapName: 'js/plugin.js.map',
-			sourceMapIncludeSources: true,
+			sourceMap: false,
 			mangle: true,
 			compress: true,
 			report: 'gzip'

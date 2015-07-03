@@ -13,10 +13,15 @@ module.exports = {
 		diff: false
 	},
 	plugin: {
-		src: [
-			'*.css',
-			'!*.min.css'
-		],
-		dest: '<%= paths.tmp %>*.css'
+		files: [
+			{
+				src: 'css/<%= pkg.nameDashed %>.css',
+				dest: '<%= paths.tmp %><%= pkg.nameDashed %>.css'
+			},
+			{
+				src: 'css/admin-<%= pkg.nameDashed %>.css',
+				dest: '<%= paths.tmp %>admin-<%= pkg.nameDashed %>.css'
+			}
+		]
 	}
 };

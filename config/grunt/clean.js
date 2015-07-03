@@ -12,13 +12,16 @@ module.exports = {
 	},
 	css: {
 		src: [
-			'css'
+			'css/',
+			'!<%= paths.cssSrc %>',
+			'<%= paths.cssSrc %>vendor'
 		]
 	},
 	fonts: {
 		src: [
-			'fonts',
-			'<%= paths.tmp %>icons'
+			'font/',
+			'!<%= paths.fontSrc %>',
+			'<%= paths.fontSrc %>vendor'
 		]
 	},
 	tmp: {
@@ -28,12 +31,15 @@ module.exports = {
 	},
 	js: {
 		src: [
-			'js'
+			'js/',
+			'!<%= paths.jsSrc %>',
+			'<%= paths.jsSrc %>vendor'
 		]
 	},
 	images: {
 		src: [
-			'images'
+			'images/',
+			'!images/src/'
 		]
 	},
 	languages: {

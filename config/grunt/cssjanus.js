@@ -5,9 +5,13 @@ module.exports = {
 			swapLtrRtlInUrl: false
 		},
 		files: [
-			{ // Must be done on dev, otherwise /* @noflip */ is removed
-				src: '<%= paths.tmp %>style.css',
-				dest: '<%= paths.tmp %>style-rtl.css'
+			{
+				src: '<%= paths.tmp %><%= pkg.nameDashed %>.css',
+				dest: '<%= paths.tmp %><%= pkg.nameDashed %>-rtl.css'
+			},
+			{
+				src: '<%= paths.tmp %>admin-<%= pkg.nameDashed %>.css',
+				dest: '<%= paths.tmp %>admin-<%= pkg.nameDashed %>-rtl.css'
 			}
 		]
 	}

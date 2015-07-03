@@ -11,8 +11,8 @@ module.exports = {
 			{
 				expand: true,
 				cwd: '<%= paths.scss %>',
-				src: 'style.scss',
-				dest: '<%= paths.tmp %>',
+				src: '<%= pkg.nameDashed %>.scss',
+				dest: 'css/',
 				ext: '.css'
 			}
 		]

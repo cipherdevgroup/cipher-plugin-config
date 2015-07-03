@@ -4,24 +4,17 @@ module.exports = {
 		options: {
 			position: 'top',
 			banner: '/*!\n' +
-				'plugin Name:  <%= pkg.plugin.name %>\n' +
+				'Plugin Name: <%= pkg.plugin.nameSpaced %>\n' +
 				'Version:     <%= pkg.version %>\n' +
 				'Author:      <%= pkg.plugin.author %>\n' +
-				'Author URI:  <%= pkg.plugin.authoruri %>\n' +
-				'plugin URI:   <%= pkg.plugin.uri %>\n' +
-				'Description: <%= pkg.plugin.description %>\n' +
-				'Tags:        <%= pkg.plugin.tags %>\n' +
-				'Text Domain: <%= pkg.plugin.textdomain %>\n' +
-				'Domain Path: <%= pkg.plugin.domainpath %>\n' +
 				'License:     <%= pkg.plugin.license %>\n' +
-				'License URI: <%= pkg.plugin.licenseuri %>\n' +
 				'*/\n',
 			linebreak: true
 		},
 		files: [
 			{
 				cwd: '<%= paths.tmp %>',
-				src: 'style.css',
+				src: '<%= pkg.nameDashed %>.css',
 				dest: '<%= paths.tmp %>',
 				expand: true
 			}
@@ -31,7 +24,7 @@ module.exports = {
 		options: {
 			position: 'top',
 			banner: '/*!\n' +
-				'<%= pkg.plugin.name %> Editor Styles\n' +
+				'<%= pkg.plugin.nameSpaced %> Admin Styles\n' +
 				'Version: <%= pkg.version %>\n' +
 				'*/\n',
 			linebreak: true
@@ -39,7 +32,7 @@ module.exports = {
 		files: [
 			{
 				cwd: '<%= paths.tmp %>',
-				src: 'editor-style.css',
+				src: 'admin-<%= pkg.nameDashed %>.css',
 				dest: '<%= paths.tmp %>',
 				expand: true
 			}

@@ -5,6 +5,9 @@ module.exports = {
 	},
 	css: {
 		expand: true,
-		src: ['<%= paths.tmp %>style.css']
+		src: [
+			'<%= paths.tmp %><%= pkg.nameDashed %>.css',
+			'<%= paths.tmp %><%= pkg.nameDashed %>-admin.css'
+		]
 	}
 };

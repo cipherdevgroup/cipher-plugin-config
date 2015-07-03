@@ -3,34 +3,12 @@ module.exports = {
 	options: {
 		livereload: true
 	},
-	grunt: {
-		files: [
-			'<%= files.config %>'
-		],
-		tasks: [
-			'jshint:grunt',
-			'jsvalidate:grunt',
-			'jscs:grunt'
-		]
-	},
 	js: {
 		files: [
 			'<%= files.js %>'
 		],
 		tasks: [
-			'build:js',
-			'jshint:assets',
-			'jsvalidate:assets',
-			'jscs:assets'
-		]
-	},
-	icons: {
-		files: [
-			'<%= files.icons %>'
-		],
-		tasks: [
-			'newer:imagemin:icons',
-			'webfont'
+			'build:js'
 		]
 	},
 	scss: {
