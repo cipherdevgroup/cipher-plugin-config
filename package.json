@@ -1,0 +1,43 @@
+{
+  "name": "sitecare-plugin-config",
+  "version": "0.1.0",
+  "description": "WP Site Care's default Grunt configuration for WordPress plugins.",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Robert Neu",
+      "url": "http://www.wpsitecare.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpsitecare/sitecare-plugin-config.git"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4",
+    "grunt-autoprefixer": "~3.0",
+    "grunt-banner": "~0.4",
+    "grunt-bower-install-task": "0.0.4",
+    "grunt-checktextdomain": "~1.0",
+    "grunt-complexity": "~0.3",
+    "grunt-contrib-clean": "~0.6",
+    "grunt-contrib-concat": "~0.5",
+    "grunt-contrib-compress": "~0.13",
+    "grunt-contrib-copy": "~0.8",
+    "grunt-contrib-cssmin": "~0.12",
+    "grunt-contrib-imagemin": "~0.9",
+    "grunt-contrib-uglify": "~0.9",
+    "grunt-contrib-watch": "~0.6",
+    "grunt-cssjanus": "~0.2",
+    "grunt-jsbeautifier": "~0.2",
+    "grunt-newer": "~1.1",
+    "grunt-potomo": "~3.3",
+    "grunt-replace": "~0.9",
+    "grunt-sass": "~1.0",
+    "grunt-wp-css": "~0.2",
+    "grunt-wp-i18n": "~0.5",
+    "node-neat": "~1.7",
+    "time-grunt": "~1.2"
+  }
+}
