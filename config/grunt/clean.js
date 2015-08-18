@@ -14,14 +14,14 @@ module.exports = {
 		src: [
 			'css/*',
 			'!<%= paths.cssSrc %>**',
-			'<%= paths.cssSrc %>vendor'
+			'<%= paths.cssSrc %>vendor/'
 		]
 	},
 	fonts: {
 		src: [
 			'font/*',
 			'!<%= paths.fontSrc %>**',
-			'<%= paths.fontSrc %>vendor'
+			'<%= paths.fontSrc %>vendor/'
 		]
 	},
 	tmp: {
@@ -33,7 +33,7 @@ module.exports = {
 		src: [
 			'js/*',
 			'!<%= paths.jsSrc %>**',
-			'<%= paths.jsSrc %>vendor'
+			'<%= paths.jsSrc %>vendor/'
 		]
 	},
 	images: {
