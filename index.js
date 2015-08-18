@@ -14,6 +14,7 @@ module.exports = function() {
 			jsSrc:     'js/src/',
 			cssSrc:    'css/src/',
 			fontSrc:   'font/src/',
+			imagesSrc: 'images/src/',
 			bower:     'bower/',
 			grunt:     'config/grunt/',
 			tasks:     'config/grunt/tasks/',

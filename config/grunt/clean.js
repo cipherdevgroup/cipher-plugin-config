@@ -12,15 +12,15 @@ module.exports = {
 	},
 	css: {
 		src: [
-			'css/',
-			'!<%= paths.cssSrc %>',
+			'css/*',
+			'!<%= paths.cssSrc %>**',
 			'<%= paths.cssSrc %>vendor'
 		]
 	},
 	fonts: {
 		src: [
-			'font/',
-			'!<%= paths.fontSrc %>',
+			'font/*',
+			'!<%= paths.fontSrc %>**',
 			'<%= paths.fontSrc %>vendor'
 		]
 	},
@@ -31,15 +31,15 @@ module.exports = {
 	},
 	js: {
 		src: [
-			'js/',
-			'!<%= paths.jsSrc %>',
+			'js/*',
+			'!<%= paths.jsSrc %>**',
 			'<%= paths.jsSrc %>vendor'
 		]
 	},
 	images: {
 		src: [
-			'images/',
-			'!images/src/'
+			'images/*',
+			'!<%= paths.imagesSrc %>**'
 		]
 	},
 	languages: {
