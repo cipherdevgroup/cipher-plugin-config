@@ -1,8 +1,11 @@
-// https://github.com/yoavf/grunt-cssjanus
+// https://github.com/MohammadYounes/grunt-rtlcss
 module.exports = {
-	plugin: {
+	theme: {
 		options: {
-			swapLtrRtlInUrl: false
+			swapLeftRightInUrl: false,
+			swapLtrRtlInUrl: false,
+			autoRename: false,
+			preserveDirectives: true
 		},
 		files: [
 			{

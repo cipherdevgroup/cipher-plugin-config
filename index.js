@@ -25,7 +25,6 @@ module.exports = function() {
 		},
 		taskMap: {
 			addtextdomain: 'grunt-wp-i18n',
-			bower_install: 'grunt-bower-install-task',
 			makepot:       'grunt-wp-i18n',
 			usebanner:     'grunt-banner',
 			wpcss:         'grunt-wp-css'
@@ -35,7 +34,6 @@ module.exports = function() {
 	project.files = {
 		js:     project.paths.jsSrc   + '**/*.js',
 		scss:   project.paths.cssSrc  + '**/*.scss',
-		icons:  project.paths.fontSrc + 'icons/**/*.svg',
 		config: project.paths.config  + '**/*.js',
 		php: [
 			'*.php',

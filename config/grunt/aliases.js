@@ -1,9 +1,9 @@
 module.exports = function() {
 	'use strict';
 	var tasks = {
-		build: [
+		'build': [
 			'clean',
-			'bower_install',
+			'shell:bower',
 			'build:fonts',
 			'build:css',
 			'build:images',
@@ -28,7 +28,7 @@ module.exports = function() {
 			'makepot',
 			'newer:copy:languages'
 		],
-		newtheme: [
+		'newplugin': [
 			'replace:packagename',
 			'readpkg',
 			'build'
