@@ -4,7 +4,7 @@ module.exports = {
 		options: {
 			position: 'top',
 			banner: '/*!\n' +
-				'Plugin Name: <%= pkg.plugin.nameSpaced %>\n' +
+				'Plugin Name: <%= pkg.plugin.name %>\n' +
 				'Version:     <%= pkg.version %>\n' +
 				'Author:      <%= pkg.plugin.author %>\n' +
 				'License:     <%= pkg.plugin.license %>\n' +
@@ -24,7 +24,7 @@ module.exports = {
 		options: {
 			position: 'top',
 			banner: '/*!\n' +
-				'<%= pkg.plugin.nameSpaced %> Admin Styles\n' +
+				'<%= pkg.plugin.name %> Admin Styles\n' +
 				'Version: <%= pkg.version %>\n' +
 				'*/\n',
 			linebreak: true
