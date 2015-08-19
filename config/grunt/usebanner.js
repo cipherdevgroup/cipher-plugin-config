@@ -3,12 +3,12 @@ module.exports = {
 	plugin: {
 		options: {
 			position: 'top',
-			banner: '/*!\n' +
-				'Plugin Name: <%= pkg.plugin.name %>\n' +
-				'Version:     <%= pkg.version %>\n' +
-				'Author:      <%= pkg.plugin.author %>\n' +
-				'License:     <%= pkg.plugin.license %>\n' +
-				'*/\n',
+			banner: '/**!\n' +
+				' * Plugin Name: <%= pkg.plugin.name %>\n' +
+				' * Version:     <%= pkg.version %>\n' +
+				' * Author:      <%= pkg.plugin.author %>\n' +
+				' * License:     <%= pkg.plugin.license %>\n' +
+				' */\n',
 			linebreak: true
 		},
 		files: [
@@ -23,10 +23,10 @@ module.exports = {
 	adminStyle: {
 		options: {
 			position: 'top',
-			banner: '/*!\n' +
-				'<%= pkg.plugin.name %> Admin Styles\n' +
-				'Version: <%= pkg.version %>\n' +
-				'*/\n',
+			banner: '/**!\n' +
+				' * <%= pkg.plugin.name %> Admin Styles\n' +
+				' * Version: <%= pkg.version %>\n' +
+				' */\n',
 			linebreak: true
 		},
 		files: [
