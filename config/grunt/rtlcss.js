@@ -11,10 +11,11 @@ module.exports = {
 		cwd: '<%= paths.tmp %>',
 		src: [
 			'*.css',
+			'!*.rtl.css',
 			'!*.min.css'
 		],
 		dest: '<%= paths.tmp %>',
-		ext: '.css',
+		ext: '-rtl.css',
 		extDot: 'last'
 	}
 };
