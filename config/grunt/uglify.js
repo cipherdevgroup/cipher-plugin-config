@@ -12,8 +12,8 @@ module.exports = {
 				expand: true,
 				cwd: 'js/',
 				src: [
-					'*.js',
-					'!*.min.js'
+					'**/*.js',
+					'!**/*.min.js'
 				],
 				dest: 'js/',
 				ext: '.min.js',
