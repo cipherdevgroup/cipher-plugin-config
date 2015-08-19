@@ -18,9 +18,9 @@ module.exports = {
 		tasks: [
 			'sass:plugin',
 			'usebanner:plugin',
-			'autoprefixer',
+			'postcss',
 			'wpcss:css',
-			'cssjanus',
+			'rtlcss',
 			'cssmin:style',
 			'replace:style',
 			'copy:css'
