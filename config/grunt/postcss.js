@@ -18,15 +18,14 @@ module.exports = {
 		map: false
 	},
 	plugin: {
-		files: [
-			{
-				src: 'css/<%= pkg.nameDashed %>.css',
-				dest: '<%= paths.tmp %><%= pkg.nameDashed %>.css'
-			},
-			{
-				src: 'css/admin-<%= pkg.nameDashed %>.css',
-				dest: '<%= paths.tmp %>admin-<%= pkg.nameDashed %>.css'
-			}
-		]
+		expand: true,
+		cwd: '<%= paths.tmp %>',
+		src: [
+			'*.css',
+			'!*.min.css'
+		],
+		dest: '<%= paths.tmp %>',
+		ext: '.css',
+		extDot: 'last'
 	}
 };
