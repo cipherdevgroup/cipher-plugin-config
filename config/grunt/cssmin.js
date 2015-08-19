@@ -17,7 +17,7 @@ module.exports = {
 	},
 	vendor: {
 		expand: true,
-		cwd: 'css/',
+		cwd: '<%= paths.cssSrc %>vendor',
 		src: [
 			'*.css',
 			'!*.min.css'
