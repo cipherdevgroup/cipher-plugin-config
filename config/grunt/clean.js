@@ -44,7 +44,7 @@ module.exports = {
 	},
 	languages: {
 		src: [
-			'languages'
+			'<%= paths.languages %>*.pot'
 		]
 	},
 	release: {
