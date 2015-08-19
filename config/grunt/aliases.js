@@ -29,6 +29,7 @@ module.exports = function() {
 			'newer:copy:languages'
 		],
 		'newplugin': [
+			'copy:rename',
 			'replace:packagename',
 			'readpkg',
 			'build'
