@@ -34,6 +34,10 @@ module.exports = function() {
 			'readpkg',
 			'build'
 		],
+		'release': [
+			'build',
+			'copy:release'
+		],
 		'default': [
 			'watch'
 		]

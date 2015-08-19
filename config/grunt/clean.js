@@ -46,6 +46,11 @@ module.exports = {
 		src: [
 			'languages'
 		]
+	},
+	release: {
+		src: [
+			'<%= paths.release %>'
+		]
 	}
 
 };

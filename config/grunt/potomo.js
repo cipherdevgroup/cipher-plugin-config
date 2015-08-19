@@ -1,6 +1,6 @@
 // https://github.com/axisplugins/grunt-potomo
 module.exports = {
-	dist: {
+	release: {
 		files: [
 			{
 				expand: true,
