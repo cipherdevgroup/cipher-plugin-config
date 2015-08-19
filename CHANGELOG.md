@@ -1,3 +1,7 @@
+## 0.1.2
+
+- Fixed an incorrect path in the makepot task.
+
 ## 0.1.1
 
 - Fixed a bunch of issues with paths and task names.
