@@ -1,6 +1,7 @@
 ## 0.1.3
 
-- Actually Fixed incorrect settings in the RTL paths because I'm extremely dumb.
+- Actually Fixed incorrect settings in the RTL paths because I'm extremely dumb
+- Bumped grunt-replace to the latest version
 
 ## 0.1.2
 
