@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Actually Fixed incorrect settings in the RTL paths because I'm extremely dumb.
+
 ## 0.1.2
 
 - Fixed an incorrect path in the makepot task.
