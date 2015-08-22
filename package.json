@@ -31,7 +31,7 @@
     "grunt-newer": "~1.1",
     "grunt-postcss": "~0.5",
     "grunt-potomo": "~3.3",
-    "grunt-replace": "~0.9",
+    "grunt-replace": "~0.10",
     "grunt-rtlcss": "~1.6",
     "grunt-sass": "~1.0",
     "grunt-shell": "~1.1",
