@@ -1,3 +1,8 @@
+## 0.1.4
+
+- Fixed the JS paths to prevent recursion when running the watch command
+- Required the latest version for all peerDependencies
+
 ## 0.1.3
 
 - Actually Fixed incorrect settings in the RTL paths because I'm extremely dumb
