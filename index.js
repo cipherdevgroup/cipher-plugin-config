@@ -34,7 +34,11 @@ module.exports = function() {
 	};
 
 	project.files = {
-		js:     project.paths.jsSrc   + '**/*.js',
+		js: [
+			project.paths.jsSrc + '**/*.js',
+			'!' + project.paths.jsSrc + '**/*.min.js',
+			'!' + project.paths.jsSrc + 'vendor/'
+		],
 		scss:   project.paths.cssSrc  + '**/*.scss',
 		config: project.paths.config  + '**/*.js',
 		php: [
