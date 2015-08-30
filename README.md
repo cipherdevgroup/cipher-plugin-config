@@ -1,4 +1,4 @@
-# WP Site Care WordPress plugin Config
+# WP Site Care WordPress Plugin Config
 
 [![peerDependency Status](https://david-dm.org/wpsitecare/sitecare-plugin-config/peer-status.svg)](https://david-dm.org/wpsitecare/sitecare-plugin-config#info=peerDependencies)
 
