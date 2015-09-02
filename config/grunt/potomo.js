@@ -4,9 +4,9 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: '<%= paths.assets %><%= paths.languages %>',
+				cwd: '<%= paths.languages %>src/',
 				src: [ '*.po' ],
-				dest: '<%= paths.plugin%><%= paths.languages %>',
+				dest: '<%= paths.languages %>',
 				ext: '.mo',
 				nonull: true,
 				filter: 'isFile'
