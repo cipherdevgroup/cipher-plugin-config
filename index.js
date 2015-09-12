@@ -17,13 +17,13 @@ module.exports = function() {
 		imagesSrc: 'images/src/',
 		bower:     'bower/',
 		grunt:     'config/grunt/',
-		tasks:     'config/grunt/tasks/'
+		tasks:     'tasks/'
 	};
 
 	project.paths.global = {
 		config: path.join( __dirname, 'config/' ),
 		grunt:  path.join( __dirname, 'config/grunt/' ),
-		tasks:  path.join( __dirname, 'config/grunt/tasks/' )
+		tasks:  path.join( __dirname, 'tasks/' )
 	};
 
 	project.taskMap = {
