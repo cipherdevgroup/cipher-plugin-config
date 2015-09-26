@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/wpsitecare/sitecare-plugin-config.git"
   },
-  "peerDependencies": {
+  "dependencies": {
     "autoprefixer": "6.x",
     "grunt": "0.x",
     "grunt-banner": "0.x",
