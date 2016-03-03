@@ -19,7 +19,6 @@ module.exports = {
 			'sass:plugin',
 			'usebanner:plugin',
 			'postcss',
-			'wpcss:css',
 			'rtlcss',
 			'cssmin:style',
 			'replace:style',

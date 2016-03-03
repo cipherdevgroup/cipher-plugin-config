@@ -38,6 +38,18 @@ module.exports = function() {
 			'build',
 			'copy:release'
 		],
+		'release:major': [
+			'version::major',
+			'release'
+		],
+		'release:minor': [
+			'version::minor',
+			'release'
+		],
+		'release:patch': [
+			'version::patch',
+			'release'
+		],
 		'default': [
 			'watch'
 		]
