@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Synchronized with [sitecare-theme-config](https://github.com/wpsitecare/sitecare-theme-config)
+
 ## 0.1.4
 
 - Fixed the JS paths to prevent recursion when running the watch command
