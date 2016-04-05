@@ -1,6 +1,6 @@
 {
   "name": "sitecare-plugin-config",
-  "version": "0.1.4",
+  "version": "2.0.0",
   "description": "WP Site Care's default Grunt configuration for WordPress plugins.",
   "main": "index.js",
   "license": "MIT",
