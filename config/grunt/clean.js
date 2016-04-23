@@ -33,6 +33,7 @@ module.exports = {
 		src: [
 			'js/*',
 			'!<%= paths.jsSrc %>**',
+			'<%= paths.jsSrc %>*.min.js',
 			'<%= paths.jsSrc %>vendor/'
 		]
 	},
