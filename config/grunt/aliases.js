@@ -11,12 +11,6 @@ module.exports = function() {
 			'clean:bowercomponents',
 			'build:i18n'
 		],
-		'build:dev': [
-			'build:fonts',
-			'build:css',
-			'build:images',
-			'build:js'
-		],
 		'build:dependencies': [
 			'build:dependencies:css',
 			'build:dependencies:fonts',
