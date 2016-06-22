@@ -2,6 +2,7 @@ module.exports = function() {
 	'use strict';
 	var tasks = {
 		'build': [
+			'readpkg',
 			'clean',
 			'shell:bower',
 			'build:fonts',
