@@ -2,7 +2,6 @@ module.exports = function() {
 	'use strict';
 	var tasks = {
 		'build': [
-			'readpkg',
 			'clean',
 			'shell:bower',
 			'build:fonts',
@@ -24,7 +23,6 @@ module.exports = function() {
 			'newer:copy:languages'
 		],
 		'newplugin': [
-			'readpkg',
 			'copy:rename',
 			'replace:packagename',
 			'build'
