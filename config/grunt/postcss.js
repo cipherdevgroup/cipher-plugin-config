@@ -1,34 +1,10 @@
 // https://github.com/nDmitry/grunt-postcss
-var autoprefixer = require( 'autoprefixer' ),
-	pxtorem      = require( 'postcss-pxtorem' );
+var autoprefixer = require( 'autoprefixer' );
 
 module.exports = {
 	options: {
 		map: true,
 		processors: [
-			pxtorem( {
-				rootValue: 10,
-				propWhiteList: [
-					'font',
-					'font-size',
-					'line-height',
-					'letter-spacing',
-					'margin',
-					'margin-left',
-					'margin-right',
-					'margin-top',
-					'margin-bottom',
-					'padding',
-					'padding-left',
-					'padding-right',
-					'padding-top',
-					'padding-bottom'
-				],
-				selectorBlackList: [
-					'html'
-				],
-				minPixelValue: 2
-			} ),
 			autoprefixer( {
 				browsers: [
 					'Android >= 2.1',

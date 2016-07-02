@@ -34,7 +34,6 @@
     "grunt-shell": "1.x",
     "grunt-version": "1.x",
     "grunt-wp-i18n": "0.x",
-    "postcss-pxtorem": "3.x",
     "time-grunt": "1.x"
   }
 }
