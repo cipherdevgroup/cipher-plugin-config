@@ -22,7 +22,9 @@ module.exports = {
 		cwd: '<%= paths.tmp %>',
 		src: [
 			'*.css',
-			'!*.min.css'
+			'**/*.css',
+			'!*.min.css',
+			'!**/*.min.css'
 		],
 		dest: '<%= paths.tmp %>',
 		ext: '.css',
