@@ -5,7 +5,10 @@ module.exports = {
 			{
 				expand: true,
 				cwd: 'images/src/',
-				src: [ '*.*' ],
+				src: [
+					'*',
+					'**/*'
+				],
 				dest: 'images/'
 			}
 		]
