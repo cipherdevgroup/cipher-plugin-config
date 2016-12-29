@@ -13,6 +13,7 @@ module.exports = {
 	css: {
 		src: [
 			'css/*',
+			'css/**',
 			'!<%= paths.cssSrc %>**',
 			'<%= paths.cssSrc %>vendor/'
 		]
@@ -24,14 +25,10 @@ module.exports = {
 			'<%= paths.fontSrc %>vendor/'
 		]
 	},
-	tmp: {
-		src: [
-			'<%= paths.tmp %>'
-		]
-	},
 	js: {
 		src: [
 			'js/*',
+			'js/**',
 			'!<%= paths.jsSrc %>**',
 			'<%= paths.jsSrc %>*.min.js',
 			'<%= paths.jsSrc %>vendor/'
@@ -40,6 +37,7 @@ module.exports = {
 	images: {
 		src: [
 			'images/*',
+			'images/**',
 			'!<%= paths.imagesSrc %>**'
 		]
 	},
@@ -53,5 +51,4 @@ module.exports = {
 			'<%= paths.release %>'
 		]
 	}
-
 };

@@ -9,7 +9,7 @@ module.exports = {
 					'*',
 					'**/*'
 				],
-				dest: 'images/'
+				dest: '<%= paths.imagesDist %>'
 			}
 		]
 	}
