@@ -7,33 +7,22 @@ module.exports = {
 	},
 	css: {
 		src: [
-			'css/*',
-			'css/**',
-			'!<%= paths.cssSrc %>**',
-			'<%= paths.cssSrc %>vendor/'
+			'<%= paths.cssDist %>'
 		]
 	},
 	fonts: {
 		src: [
-			'font/*',
-			'!<%= paths.fontSrc %>**',
-			'<%= paths.fontSrc %>vendor/'
+			'<%= paths.fontDist %>'
 		]
 	},
 	js: {
 		src: [
-			'js/*',
-			'js/**',
-			'!<%= paths.jsSrc %>**',
-			'<%= paths.jsSrc %>*.min.js',
-			'<%= paths.jsSrc %>vendor/'
+			'<%= paths.jsDist %>'
 		]
 	},
 	images: {
 		src: [
-			'images/*',
-			'images/**',
-			'!<%= paths.imagesSrc %>**'
+			'<%= paths.imagesDist %>'
 		]
 	},
 	languages: {
