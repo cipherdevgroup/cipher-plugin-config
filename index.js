@@ -17,7 +17,7 @@ module.exports = function() {
 		cssVend:    'css/src/vendor/',
 		cssDist:    'css/dist/',
 		fontSrc:    'font/src/',
-		fontVend:   'font/src/vendor/',
+		fontVend:   'font/src/',
 		fontDist:   'font/dist/',
 		imagesSrc:  'images/src/',
 		imagesDist: 'images/dist/',
