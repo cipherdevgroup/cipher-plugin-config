@@ -7,17 +7,20 @@ module.exports = {
 	},
 	css: {
 		src: [
-			'<%= paths.cssDist %>'
+			'<%= paths.cssDist %>',
+			'<%= paths.cssVend %>'
 		]
 	},
 	fonts: {
 		src: [
-			'<%= paths.fontDist %>'
+			'<%= paths.fontDist %>',
+			'<%= paths.fontVend %>'
 		]
 	},
 	js: {
 		src: [
-			'<%= paths.jsDist %>'
+			'<%= paths.jsDist %>',
+			'<%= paths.jsVend %>'
 		]
 	},
 	images: {

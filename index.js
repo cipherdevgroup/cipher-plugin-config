@@ -11,10 +11,13 @@ module.exports = function() {
 		languages:  'languages/',
 		release:    'release/',
 		jsSrc:      'js/src/',
+		jsVend:     'js/src/vendor/',
 		jsDist:     'js/dist/',
 		cssSrc:     'css/src/',
+		cssVend:    'css/src/vendor/',
 		cssDist:    'css/dist/',
 		fontSrc:    'font/src/',
+		fontVend:   'font/src/vendor/',
 		fontDist:   'font/dist/',
 		imagesSrc:  'images/src/',
 		imagesDist: 'images/dist/',
@@ -45,7 +48,7 @@ module.exports = function() {
 	project.files.js = [
 		project.paths.jsSrc + '**/*.js',
 		'!' + project.paths.jsSrc + '**/*.min.js',
-		'!' + project.paths.jsSrc + 'vendor/'
+		'!' + project.paths.jsVend
 	];
 
 	project.files.php = [
