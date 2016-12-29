@@ -1,3 +1,11 @@
+## 3.0.0
+
+- Bumped all dependencies to the latest version
+- Changed default directory structure
+- Removed grunt-shell
+- Removed Bower dependency
+- Removed Composer dependency
+
 ## 2.0.0
 
 - Synchronized with [sitecare-theme-config](https://github.com/wpsitecare/sitecare-theme-config)
