@@ -8,8 +8,8 @@ module.exports = {
 	},
 	fonts: {
 		src: [
-			'<%= paths.fontDist %>',
-			'<%= paths.fontVend %>'
+			'<%= paths.fontsDist %>',
+			'<%= paths.fontsVend %>'
 		]
 	},
 	js: {
