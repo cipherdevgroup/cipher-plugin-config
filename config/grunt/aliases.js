@@ -7,7 +7,6 @@ module.exports = function() {
 			'build:css',
 			'build:images',
 			'build:js',
-			'clean:bowercomponents',
 			'build:i18n'
 		],
 		'build:dependencies': [
