@@ -4,7 +4,7 @@ module.exports = {
 		files: [
 			{
 				expand: true,
-				cwd: 'images/src/',
+				cwd: '<%= paths.imagesSrc %>',
 				src: [
 					'*',
 					'**/*'
