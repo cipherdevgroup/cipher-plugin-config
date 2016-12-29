@@ -5,11 +5,6 @@ module.exports = {
 			'<%= paths.bower %>'
 		]
 	},
-	bowercomponents: {
-		src: [
-			'bower_components'
-		]
-	},
 	css: {
 		src: [
 			'css/*',
