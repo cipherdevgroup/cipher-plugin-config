@@ -6,18 +6,21 @@ module.exports = function() {
 		project = {};
 
 	project.paths = {
-		config:    'config/',
-		assets:    'assets/',
-		languages: 'languages/',
-		release:   'release/',
-		tmp:       'tmp/',
-		jsSrc:     'js/src/',
-		cssSrc:    'css/src/',
-		fontSrc:   'font/src/',
-		imagesSrc: 'images/src/',
-		bower:     'bower/',
-		grunt:     'config/grunt/',
-		tasks:     'tasks/'
+		config:     'config/',
+		assets:     'assets/',
+		languages:  'languages/',
+		release:    'release/',
+		jsSrc:      'js/src/',
+		jsDist:     'js/dist/',
+		cssSrc:     'css/src/',
+		cssDist:    'css/dist/',
+		fontSrc:    'font/src/',
+		fontDist:   'font/dist/',
+		imagesSrc:  'images/src/',
+		imagesDist: 'images/dist/',
+		bower:      'bower/',
+		grunt:      'config/grunt/',
+		tasks:      'tasks/'
 	};
 
 	project.paths.global = {
