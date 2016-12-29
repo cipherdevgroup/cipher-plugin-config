@@ -3,7 +3,6 @@ module.exports = function() {
 	var tasks = {
 		'build': [
 			'clean',
-			'shell:bower',
 			'build:fonts',
 			'build:css',
 			'build:images',
