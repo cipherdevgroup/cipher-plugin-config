@@ -42,6 +42,7 @@ module.exports = function() {
 
 	project.files = {
 		scss:   project.paths.cssSrc  + '**/*.scss',
+		images: project.paths.imagesSrc  + '**/*',
 		config: project.paths.config  + '**/*.js'
 	};
 
