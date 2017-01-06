@@ -18,9 +18,7 @@ module.exports = {
 		tasks: [
 			'sass:plugin',
 			'postcss',
-			'rtlcss',
 			'cssmin:style',
-			'replace:style',
 			'copy:css'
 		]
 	}
