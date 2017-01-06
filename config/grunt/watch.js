@@ -23,9 +23,7 @@ module.exports = {
 		files: [
 			'<%= files.php %>'
 		],
-		tasks: [
-			'build:i18n'
-		]
+		tasks: []
 	},
 	scss: {
 		files: [
