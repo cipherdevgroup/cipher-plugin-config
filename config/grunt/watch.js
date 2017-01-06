@@ -11,6 +11,22 @@ module.exports = {
 			'build:js'
 		]
 	},
+	images: {
+		files: [
+			'<%= files.images %>'
+		],
+		tasks: [
+			'build:images'
+		]
+	},
+	php: {
+		files: [
+			'<%= files.php %>'
+		],
+		tasks: [
+			'build:i18n'
+		]
+	},
 	scss: {
 		files: [
 			'<%= files.scss %>'
