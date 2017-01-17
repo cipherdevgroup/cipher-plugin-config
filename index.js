@@ -10,18 +10,19 @@ module.exports = function() {
 		assets:     'assets/',
 		languages:  'languages/',
 		release:    'release/',
-		jsSrc:      'js/src/',
-		jsVend:     'js/src/vendor/',
-		jsDist:     'js/dist/',
-		cssSrc:     'css/src/',
-		cssVend:    'css/src/vendor/',
-		cssDist:    'css/dist/',
-		fontsSrc:    'fonts/src/',
-		fontsVend:   'fonts/src/vendor/',
-		fontsDist:   'fonts/dist/',
-		imagesSrc:  'images/src/',
-		imagesDist: 'images/dist/',
-		bower:      'bower/',
+		jsSrc:      'assets/plugin/js/',
+		jsVend:     'js/vendor/',
+		jsDist:     'js/',
+		cssSrc:     'assets/plugin/css/',
+		cssDist:    'css/',
+		cssVend:    'css/vendor/',
+		fontsSrc:   'assets/plugin/fonts/',
+		fontsDist:  'fonts/',
+		fontsVend:  'fonts/vendor/',
+		imagesSrc:  'assets/plugin/images/',
+		imagesDist: 'images/',
+		imagesVend: 'images/vendor/',
+		bower:      'assets/bower/',
 		grunt:      'config/grunt/',
 		tasks:      'tasks/'
 	};
@@ -35,9 +36,7 @@ module.exports = function() {
 	project.taskMap = {
 		addtextdomain: 'grunt-wp-i18n',
 		readpkg:       'sitecare-plugin-config',
-		makepot:       'grunt-wp-i18n',
-		usebanner:     'grunt-banner',
-		wpcss:         'grunt-wp-css'
+		makepot:       'grunt-wp-i18n'
 	};
 
 	project.files = {
