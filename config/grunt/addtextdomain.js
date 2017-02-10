@@ -1,12 +1,15 @@
 // https://github.com/blazersix/grunt-wp-i18n
 module.exports = {
 	options: {
-		textdomain: '<%= pkg.plugin.textdomain %>',
-		updateDomains: [ 'all' ]
+		textdomain: '<%= package.textdomain %>'
 	},
 	php: {
-		files: {
-			src: [ '<%= files.php %>' ]
-		}
+		options: {
+			updateDomains: [ 'all' ]
+		},
+		expand: true,
+		src: [
+			'<%= files.php %>'
+		]
 	}
 };
