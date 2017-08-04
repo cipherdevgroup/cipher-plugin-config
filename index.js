@@ -24,6 +24,7 @@ module.exports = function() {
 		imagesVend: 'images/vendor/',
 		bower:      'assets/bower/',
 		grunt:      'config/grunt/',
+		node:       'node_modules/',
 		tasks:      'tasks/'
 	};
 
