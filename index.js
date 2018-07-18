@@ -5,6 +5,8 @@ module.exports = function() {
 	var path = require( 'path' ),
 		project = {};
 
+	project.sass = require( 'sass' );
+
 	project.paths = {
 		config:     'config/',
 		assets:     'assets/',
