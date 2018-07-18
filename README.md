@@ -1,5 +1,5 @@
-# WP Site Care WordPress Plugin Config
+# Cipher WordPress Plugin Config
 
-[![Dependency Status](https://david-dm.org/wpsitecare/sitecare-plugin-config.svg)](https://david-dm.org/wpsitecare/sitecare-plugin-config)
+[![Dependency Status](https://david-dm.org/wpcipher/cipher-plugin-config.svg)](https://david-dm.org/wpcipher/cipher-plugin-config)
 
-A reusable grunt configuration for WP Site Care WordPress plugins.
+A reusable grunt configuration for Cipher WordPress plugins.

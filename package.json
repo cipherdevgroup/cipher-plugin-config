@@ -1,18 +1,18 @@
 {
-  "name": "sitecare-plugin-config",
+  "name": "cipher-plugin-config",
   "version": "3.0.0",
-  "description": "WP Site Care's default Grunt configuration for WordPress plugins.",
+  "description": "Cipher's default Grunt configuration for WordPress plugins.",
   "main": "index.js",
   "license": "MIT",
   "contributors": [
     {
       "name": "Robert Neu",
-      "url": "http://www.wpsitecare.com"
+      "url": "https://cipherdevelopment.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wpsitecare/sitecare-plugin-config.git"
+    "url": "https://github.com/cipherdevgroup/cipher-plugin-config.git"
   },
   "dependencies": {
     "autoprefixer": "6.x",

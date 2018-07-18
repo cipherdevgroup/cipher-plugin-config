@@ -8,7 +8,7 @@
 
 ## 2.0.0
 
-- Synchronized with [sitecare-theme-config](https://github.com/wpsitecare/sitecare-theme-config)
+- Synchronized with [cipher-theme-config](https://github.com/cipherdevgroup/cipher-theme-config)
 
 ## 0.1.4
 

@@ -36,7 +36,7 @@ module.exports = function() {
 
 	project.taskMap = {
 		addtextdomain: 'grunt-wp-i18n',
-		readpkg:       'sitecare-plugin-config',
+		readpkg:       'cipher-plugin-config',
 		makepot:       'grunt-wp-i18n'
 	};
 
