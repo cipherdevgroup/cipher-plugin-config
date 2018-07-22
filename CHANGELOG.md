@@ -1,3 +1,9 @@
+## 4.0.0
+
+- Bumped all dependencies to the latest version
+- Changed to Dart Sass as default Sass compiler
+- Updated name and other elements related to WP Site Care
+
 ## 3.0.0
 
 - Bumped all dependencies to the latest version
